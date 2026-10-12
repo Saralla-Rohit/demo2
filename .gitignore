@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Build output
+target/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+.secrets/
+
+# Local Kubernetes Secret configuration
+mysql-configMap.yaml
+mysql-secret.local.yaml
